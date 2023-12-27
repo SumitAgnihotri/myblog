@@ -11,7 +11,7 @@ class Controller extends BaseController
     use AuthorizesRequests, ValidatesRequests;
 
     public function data() {
-        return "text";
+        return "working fine";
     }
     
 }
